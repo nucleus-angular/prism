@@ -1,8 +1,20 @@
 /**
- * Apply Prism styling to an element
+ * # Prism
+ *
+ * This directive will apply Prism highlighing to the element.  This must be applied on a ```<pre>`` tag that has a ```<code>``` block within it to work properly.
+ *
+ * ```html
+ * <pre nag-prism><code>
+ * //some code
+ * </code></pre>
+ * ```
+ *
+ * @todo: add proper classes to example above
  *
  * @module nag.prism
  * @ngdirective nagPrism
+ *
+ * @nghtmlattribute {null} nag-prism
  */
 angular.module('nag.prism', [])
 .directive('nagPrism', [
