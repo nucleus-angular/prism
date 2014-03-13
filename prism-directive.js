@@ -16,7 +16,7 @@
  *
  * @nghtmlattribute {null} nag-prism
  */
-angular.module('nag.prism', [])
+angular.module('nag.prism')
 .directive('nagPrism', [
   '$timeout',
   function($timeout) {
