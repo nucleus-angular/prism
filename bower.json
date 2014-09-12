@@ -1,9 +1,7 @@
 {
   "name": "nucleus-angular-prism",
   "version": "0.6.0",
-  "dependencies": {
-    "prism": "gh-pages"
-  },
+  "dependencies": {},
   "devDependencies": {
     "jquery": "2.x.x",
     "lodash": "2.x.x",
